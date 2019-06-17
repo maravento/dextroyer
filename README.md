@@ -4,14 +4,14 @@ Dextroyer es una suite de herramientas orientadas a la seguridad del PC y el con
 
 Dextroyer is a suite of tools aimed at PC security and control of external USB storage devices (removable USB flash drives, CD/DVD, diskette, WPD, etc), enabling/disabling access, installation, writing, etc., to prevent theft of personal data, malware, forensic tools, BadUSB (USB Rubber Ducky), etc. It also cleans previous connections of USB/HID devices, re-scans the connected ones and blocks the new ones (not authorized). Eliminates malware, performs backups (incremental and mirror), disables auto-start, among many other utilities.
 
-![Dextroyer](https://1.bp.blogspot.com/-oyi_CRcI87g/XPxBBoy71HI/AAAAAAAAERY/M9H-Q6vm4tgMlRqdhIuhkeWN7sIInl6eACLcBGAs/s1600/dextroyer.png)
+![Dextroyer](https://1.bp.blogspot.com/-P261lrfT_3E/XQgVsHcX90I/AAAAAAAAEUc/vX_KcYtbeeUwbY2t4BAbsSQE3-Wq8sncgCLcBGAs/s1600/Dextroyer.png)
 
 ### FICHA TECNICA / DATA SHEET
 ---
 
 |File|Version|OS|Update|Size|Unzip Password|
 |----|-------|--|------|----|--------------|
-|[Dextroyer.exe (.zip)](https://raw.githubusercontent.com/maravento/dextroyer/master/Dextroyer.zip)|1.0|Windows 7/8/10 x86 x64|Jun 16/2019|11.1 MB|dextroyer|
+|[Dextroyer.exe (.zip)](https://raw.githubusercontent.com/maravento/dextroyer/master/Dextroyer.zip)|1.0|Windows 7/8/10 x86 x64|Jun 17/2019|11.1 MB|dextroyer|
 
 ### MODO DE USO / HOW TO USE
 ---
