@@ -1,8 +1,8 @@
 ## [Dextroyer](https://www.maravento.com)
 
-Dextroyer es una suite de aplicaciones orientadas a la seguridad del PC y el control de dispositivos de almacenamiento externos USB (unidades flash USB extraibles, CD/DVD, disquete, WPD, etc), habilitando/deshabilitando su acceso, instalación, escritura, etc., para prevenir el robo de datos personales, malware, herramientas forenses, BadUSB (USB Rubber Ducky), etc. También limpia conexiones previas de dispositivos USB/HID, re-escanea los conectados y bloquea los nuevos (no autorizados). Elimina malware, realiza backups (incrementales y espejo), desactiva autoarranque, entre muchas otras utilidades.
+Dextroyer es una suite de herramientas orientadas a la seguridad del PC y el control de dispositivos de almacenamiento externos USB (unidades flash USB extraibles, CD/DVD, disquete, WPD, etc), habilitando/deshabilitando su acceso, instalación, escritura, etc., para prevenir el robo de datos personales, malware, herramientas forenses, BadUSB (USB Rubber Ducky), etc. También limpia conexiones previas de dispositivos USB/HID, re-escanea los conectados y bloquea los nuevos (no autorizados). Elimina malware, realiza backups (incrementales y espejo), desactiva autoarranque, entre muchas otras utilidades.
 
-Dextroyer is a suite of applications aimed at PC security and control of external USB storage devices (removable USB flash drives, CD / DVD, diskette, WPD, etc), enabling / disabling access, installation, writing, etc. , to prevent theft of personal data, malware, forensic tools, BadUSB (USB Rubber Ducky), etc. It also cleans previous connections of USB / HID devices, re-scans the connected ones and blocks the new ones (not authorized). Eliminates malware, performs backups (incremental and mirror), disables auto-start, among many other utilities.
+Dextroyer is a suite of tools aimed at PC security and control of external USB storage devices (removable USB flash drives, CD/DVD, diskette, WPD, etc), enabling/disabling access, installation, writing, etc., to prevent theft of personal data, malware, forensic tools, BadUSB (USB Rubber Ducky), etc. It also cleans previous connections of USB/HID devices, re-scans the connected ones and blocks the new ones (not authorized). Eliminates malware, performs backups (incremental and mirror), disables auto-start, among many other utilities.
 
 ![Dextroyer](https://1.bp.blogspot.com/-oyi_CRcI87g/XPxBBoy71HI/AAAAAAAAERY/M9H-Q6vm4tgMlRqdhIuhkeWN7sIInl6eACLcBGAs/s1600/dextroyer.png)
 
@@ -11,7 +11,7 @@ Dextroyer is a suite of applications aimed at PC security and control of externa
 
 |File|Version|OS|Update|Size|Unzip Password|
 |----|-------|--|------|----|--------------|
-|[Dextroyer.exe (.zip)](https://raw.githubusercontent.com/maravento/dextroyer/master/Dextroyer.zip)|1.0|Windows 7/8/10 x86 x64|Jun 08/2019|9 MB|dextroyer|
+|[Dextroyer.exe (.zip)](https://raw.githubusercontent.com/maravento/dextroyer/master/Dextroyer.zip)|1.0|Windows 7/8/10 x86 x64|Jun 16/2019|11.1 MB|dextroyer|
 
 ### MODO DE USO / HOW TO USE
 ---
@@ -95,18 +95,18 @@ Make a backup of the Windows Registry into homedrive (e.g  c:\Backup\RegBackup_2
 
 #####  BlackUSB
 
-Es una herramienta que limpia las conexiones previas de dispositivos USB/HID, re-escanea los conectados y bloquea los nuevos dispositivos USB/HID (no autorizados)
+Herramienta para bloquear dispositivos no autorizados USB, HID, HDC, Bluetooth, IEEE, SmartCardReader, PCMCIA, Printers, SCSI, RAID, etc. Limpia instalaciones previas de dispositivos, reescanea los conectados y bloquea los nuevos
 
-It is a tool that cleans the previous connections of USB/HID devices, re-scans the connected ones and blocks the new USB/HID devices (not authorized)
+Tool to block unauthorized devices USB, HID, HDC, Bluetooth, IEEE, SmartCardReader, PCMCIA, Printers, SCSI, RAID, etc. Cleans previous device installations, rescans those connected and blocks new ones
 
-![BlackUSB](https://1.bp.blogspot.com/-wxeHzYgryuQ/XPmRGvxgXjI/AAAAAAAAERI/8EdJsi3rsbcce_jAK4_rKBksB3hX0hYyACLcBGAs/s1600/blackusb.png "BlackUSB")
+![BlackUSB](https://1.bp.blogspot.com/-sSJP1d0nWpc/XQGavvaxX-I/AAAAAAAAHlA/anuHHalwhHcJt_0exQa0lD2PPUcEBaotwCLcBGAs/s1600/blackusb.png "BlackUSB")
 
 <ins>Advertencia / Warning</ins>
 
-- No pulse el botón BLOCK, dos veces seguidas, o bloqueará todos los dispositivos USB/HID / Do not press BLOCK button twice in a row or it will block all USB/HID devices.
+- No pulse el botón BLOCK, dos veces seguidas, o bloqueará todos los dispositivos / Do not press BLOCK button twice in a row or it will block all devices.
 - Si tiene establecidas políticas GPO en su sistema, serán reescritas. Haga backup GPO antes de usar BlackUSB / If you have defined GPO policies on your system, they will be rewritten. Make a GPO backup before using BlackUSB
-- Para incorporar un nuevo dispositivo USB/HID a su lista blanca (excluidos de bloqueo) debe pulsar el botón RESTORE para eliminar las restricciones, luego conectar el nuevo dispositivo y finalmente pulsar el botón BLOCK / To add a new USB/HID device to your whitelist (excluded from blocking) you must press the RESTORE button to remove the restrictions, then connect the new device and finally press BLOCK button
-- Despues de ejecutar la opción BLOCK, aparecerá en su escritorio el archivo de reporte whiteusb.txt, que contiene la lista blanca de dispositivos USB/HID excluidos del bloqueo. Esta lista será eliminada al utilizar la opción RESTORE / After executing the BLOCK option, the whiteusb.txt report file, which contains the white list of USB/HID devices excluded from the lock, will be displayed on your desktop. This list will be deleted when using the RESTORE option
+- Para incorporar un nuevo dispositivo (USB/HID/etc) a su lista blanca (excluidos de bloqueo) debe pulsar el botón RESTORE para eliminar las restricciones, luego conectar el nuevo dispositivo y finalmente pulsar el botón BLOCK / To add a new (USB/HID/etc) device to your whitelist (excluded from blocking) you must press the RESTORE button to remove the restrictions, then connect the new device and finally press BLOCK button
+- Despues de ejecutar la opción BLOCK, aparecerá en su escritorio el archivo de reporte whiteusb.txt, que contiene la lista blanca de dispositivos (USB/HID/etc) excluidos del bloqueo. Esta lista será eliminada al utilizar la opción RESTORE / After executing the BLOCK option, the whiteusb.txt report file, which contains the white list of (USB/HID/etc) devices excluded from the lock, will be displayed on your desktop. This list will be deleted when using the RESTORE option
 
 #####  USB Ports Control
 
@@ -139,14 +139,6 @@ Hace un backup de USB al PC. Se almacena en una carpeta en el disco local (ej. c
 It makes a backup USB to your PC. It's stored in a folder into homedrive (e.g. c:\Backup\2016.04.21-20.13.55.)
 
 ![USB Backup](https://3.bp.blogspot.com/-ehFE1SxJtok/XHmjh2zJ3mI/AAAAAAAAGmo/pgS9Oysx2HcN6WUUbsJjiVT-2JE1EFZgwCLcBGAs/s1600/backupusb.png "USB Backup")
-
-#####  USB Caution:
-
-Previene la instalación de dispositivos USB
-
-Prevents the installation of USB devices storage
-
-![USB Caution](https://1.bp.blogspot.com/-cRaroI5oqe4/XPxBBjb7poI/AAAAAAAAERc/0-MF8Kl6xpgzrZGkCJm8LkwxFbF3kNFQgCLcBGAs/s1600/usbcaution.png "USB Caution")
 
 #####  USB Selector:
 
