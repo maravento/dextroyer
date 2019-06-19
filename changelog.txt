@@ -13,7 +13,7 @@ Unzip Password:   dextroyer
 
 ### CHANGELOG
 
-2019.06.16
+2019.06.18
 Fixed: BUGS and Links
 
 2019.06.12
