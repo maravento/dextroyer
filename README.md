@@ -11,7 +11,7 @@ Dextroyer is a suite of tools aimed at PC security and control of external USB s
 
 |File|Version|OS|Update|Size|Unzip Password|
 |----|-------|--|------|----|--------------|
-|[Dextroyer.exe (.zip)](https://gitlab.com/maravento/vault/raw/master/Dextroyer.zip)|1.0|Windows 7/8/10 x86 x64|Jun 25/2019|11.2 MB|dextroyer|
+|[Dextroyer.exe (.zip)](https://gitlab.com/maravento/vault/raw/master/Dextroyer.zip)|1.0|Windows 7/8/10 x86 x64|Ago 14/2019|11.2 MB|dextroyer|
 
 ### MODO DE USO / HOW TO USE
 ---
@@ -189,6 +189,7 @@ If after running the tools included in Dextroyer, in "Normal Mode" or "Safe Mode
 ---
 
 Agradecemos a todos los que han contribuido con este proyecto / We thank all those who contributed to this project
+Special thanks to: [Jhonatan Sneider](https://github.com/sney2002)
 
 ### DONACION / DONATE
 ---
