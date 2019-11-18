@@ -11,7 +11,7 @@ Dextroyer es una suite de herramientas orientadas a la seguridad del PC y el con
 
 |File|Version|OS|Update|Size|Unzip Password|
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[Dextroyer.exe (.zip)](https://raw.githubusercontent.com/maravento/dxt/master/Dextroyer.zip)|1.0|Windows 7/8/10 x86 x64|Oct 13/2019|11.2 MB|dextroyer|
+|[Dextroyer.exe (.zip)](https://raw.githubusercontent.com/maravento/dxt/master/Dextroyer.zip)|1.0|Windows 7/8/10 x86 x64|Nov 18/2019|11.2 MB|dextroyer|
 
 ### HOW TO USE
 ---
