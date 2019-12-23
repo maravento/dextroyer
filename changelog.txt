@@ -13,6 +13,10 @@ Unzip Password:   dextroyer
 
 ### CHANGELOG
 
+2019.12.23
+Added: Malware Database Update
+Fixed: BUGS and Links
+
 2019.11.18
 Added: Malware Database Update
 
