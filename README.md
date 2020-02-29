@@ -11,7 +11,13 @@ Dextroyer es una suite de herramientas orientadas a la seguridad del PC y el con
 
 |File|Version|OS|Update|Size|Unzip Password|
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[Dextroyer.exe (.zip)](https://raw.githubusercontent.com/maravento/dxt/master/Dextroyer.zip)|1.0|Windows 7/8/10 x86 x64|Feb 02/2020|11.2 MB|dextroyer|
+|[Dextroyer.exe (.zip)](https://raw.githubusercontent.com/maravento/dxt/master/Dextroyer.zip)|1.0|Windows 7/8/10 x86 x64|Feb 25/2020|11.2 MB|dextroyer|
+
+### GIT CLONE
+---
+```
+git clone --depth=1 https://github.com/maravento/dxt.git
+```
 
 ### HOW TO USE
 ---
@@ -198,9 +204,9 @@ BTC: 3M84UKpz8AwwPADiYGQjT9spPKCvbqm4Bc
 [![CreativeCommons](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 [maravento.com](http://www.maravento.com) is licensed under a [Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional License](http://creativecommons.org/licenses/by-sa/4.0/).
 
-[Jpsoft](https://jpsoft.com/), [Indigo Rose](https://www.indigorose.com/autoplay-media-studio/), [SteelWerX](https://fstaal01.home.xs4all.nl/swreg-us.html), [Microsoft](https://www.microsoft.com/), [74cz](http://74.cz/es/make-sfx/index.php), [Resource Hacker](http://www.angusj.com/resourcehacker/), [BleepingComputer](https://www.bleepingcomputer.com/), [Ransomware Database](https://docs.google.com/spreadsheets/u/1/d/1TWS238xacAto-fLKh1n5uTsdijWdCEsGIM0Y0Hvmc5g/pubhtml#), [mkssoftware](https://www.mkssoftware.com/docs/man1/unzip.1.asp)
+[WinZenity](https://github.com/maravento/winzenity), [Jpsoft](https://jpsoft.com/), [Indigo Rose](https://www.indigorose.com/autoplay-media-studio/), [SteelWerX](https://fstaal01.home.xs4all.nl/swreg-us.html), [Microsoft](https://www.microsoft.com/), [74cz](http://74.cz/es/make-sfx/index.php), [Resource Hacker](http://www.angusj.com/resourcehacker/), [BleepingComputer](https://www.bleepingcomputer.com/), [Ransomware Database](https://docs.google.com/spreadsheets/u/1/d/1TWS238xacAto-fLKh1n5uTsdijWdCEsGIM0Y0Hvmc5g/pubhtml#), [mkssoftware](https://www.mkssoftware.com/docs/man1/unzip.1.asp)
 
-© 2019 [Maravento Studio](http://www.maravento.com)
+© 2020 [Maravento Studio](http://www.maravento.com)
 
 ### DISCLAIMER
 ---
