@@ -1,4 +1,4 @@
-## [Dextroyer](https://www.maravento.com/p/dxt.html)
+# [Dextroyer](https://www.maravento.com/p/dxt.html)
 
 Dextroyer is a suite of tools aimed at PC security and control of external USB storage devices (removable USB flash drives, CD/DVD, diskette, WPD, etc), enabling/disabling access, installation, writing, etc., to prevent theft of personal data, malware, forensic tools, BadUSB (USB Rubber Ducky), etc. It also cleans previous connections of USB/HID devices, re-scans the connected ones and blocks the new ones (not authorized). Eliminates malware, performs backups (incremental and mirror), disables auto-start, among many other utilities.
 
@@ -6,20 +6,24 @@ Dextroyer es una suite de herramientas orientadas a la seguridad del PC y el con
 
 ![Dextroyer](https://1.bp.blogspot.com/-P261lrfT_3E/XQgVsHcX90I/AAAAAAAAEUc/vX_KcYtbeeUwbY2t4BAbsSQE3-Wq8sncgCLcBGAs/s1600/Dextroyer.png)
 
-### DATA SHEET
+## DATA SHEET
+
 ---
 
 |File|Version|OS|Update|Size|Unzip Password|
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[Dextroyer.exe (.zip)](https://raw.githubusercontent.com/maravento/dxt/master/Dextroyer.zip)|1.0|Windows 7/8/10 x86 x64|Feb 25/2020|11.2 MB|dextroyer|
 
-### GIT CLONE
+## GIT CLONE
+
 ---
-```
+
+```bash
 git clone --depth=1 https://github.com/maravento/dxt.git
 ```
 
-### HOW TO USE
+## HOW TO USE
+
 ---
 
 Disable your Antivirus, Antimalware, SmartScreen or any other security solution in your Operating System, close all windows and check the date and time of your PC is correct. Unzip Dextroyer.exe (.zip) to your desktop, execute it with double click (accept privileged execution) and follow the instructions on the screen
@@ -27,19 +31,18 @@ Disable your Antivirus, Antimalware, SmartScreen or any other security solution 
 Desactive su Antivirus, Antimalware, SmartScreen o cualquier otra solución de seguridad en su Sistema Operativo, cierre todas las ventanas y verifique la fecha y hora de su PC sea la correcta. Descomprima Dextroyer.exe (.zip) en el escritorio, ejecutarlo con doble clic (acepte la ejecución con privilegios) y siga las instrucciones en pantalla
 
 ### IMPORTANT BEFORE USE
----
 
 Some malwares ([Neshta](https://www.virustotal.com/es/file/c5af1e0383d10d5405ac7c8dd7332816a5635040c18333c9d191683743d41491/analysis/1396203101/), [Ground](https://www.virustotal.com/#/file/89c1fe36715d9821145edd86b67d4f1a2ec2b81c6b5c1aa03b88e7e76d760996/detection), etc.), prevent the execution of Dextroyer with privileges, so if double clicking on Dextroyer does not execute or leaves any message related to the ".exe", then click with the right mouse button on Dextroyer and select "Run as Administrator".
 
 Algunos malwares ([Neshta](https://www.virustotal.com/es/file/c5af1e0383d10d5405ac7c8dd7332816a5635040c18333c9d191683743d41491/analysis/1396203101/), [Ground](https://www.virustotal.com/#/file/89c1fe36715d9821145edd86b67d4f1a2ec2b81c6b5c1aa03b88e7e76d760996/detection), etc.) impiden la ejecución de Dextroyer con privilegios, por tanto si al hacer doble clic sobre Dextroyer no se ejecuta o sale algún mensaje relacionado con el ".exe", entonces haga clic con el botón derecho del mouse sobre Dextroyer y seleccione "Ejecutar como Administrador".
 
-### TOOLS INCLUDED
+## TOOLS INCLUDED
+
 ---
 
-#### CLEANERS:
+### CLEANERS
 
-
-#####  Clean USB
+#### Clean USB
 
 The Clean USB tool is to exclusively remove malware from USB mass storage devices (USB flash drives, USB external storage drives, SD Cards, etc.), however, if you have stored software or executable files (.bat, .bin, .com, .cmd, .db, .exe, .vbs, dll, etc) and / or files encrypted by ransomware, Dextroyer will remove them. We recommend running the USB Backup or USB Sync tools (in the Backup Tools menu) before performing any cleaning operations (See [Most common file types used by Malware](https://www.virustotal.com/en/statistics/)). Make sure that the Windows PC where you are going to carry out the disinfection of the USB is not contaminated with malware or create a disinfection-infection loop, so it is recommended to run "Clean PC" before "Clean USB".
 
@@ -47,7 +50,7 @@ La herramienta Clean USB es para eliminar exclusivamente malware de dispositivos
 
 ![CleanUSB](https://2.bp.blogspot.com/-O7f0YdYx6Aw/XHmYxKX6QDI/AAAAAAAAGlg/0FSe6JTjctwOXQHeD-HNXJ3IeTVhRATTACLcBGAs/s1600/cleanusb1.png "Clean USB")
 
-#####  Clean PC
+#### Clean PC
 
 The "Clean PC" tool is used to clean the malware of your PC and to execute it press the "Clean PC" button and the cleaning will begin. When finished, it will restart your PC
 
@@ -55,9 +58,9 @@ La herramienta "Clean PC" se utiliza para limpiar el malware de su PC y para eje
 
 ![CleanPC](https://2.bp.blogspot.com/-vh09GR9tHas/XHmYxNobOzI/AAAAAAAAGlY/s9h-cRFYskUikXB8CKPBVT0-aGyQqGSygCLcBGAs/s1600/cleanpc.png "Clean PC")
 
-#### PC TOOLS:
+### PC TOOLS
 
-#####  Autorun Killer:
+#### Autorun Killer
 
 Before performing any cleaning procedure, it is recommended to deactivate the autorun of units (autorun) on your PC with the Autorun Killer tool (in the System Tools menu). After disabling it, restart the PC to take the changes.
 
@@ -65,7 +68,7 @@ Antes de realizar cualquier procedimiento de limpieza, se recomienda desactivar 
 
 <img src="https://1.bp.blogspot.com/-fDG1wg85ncw/XHmjhFD58VI/AAAAAAAAGmc/j2UcMZsNx3gu-a6rrx-Jh9CJjM__JGACgCLcBGAs/s1600/autorun1.png" width="300" hspace="2"/> <img src="https://3.bp.blogspot.com/-bSw-G0OmZn8/XHmjhD0J-VI/AAAAAAAAGmk/761lbp8S0BY6Ot5wKrQHujR3plx_wJ2YwCLcBGAs/s1600/autorun2.png" width="350" hspace="2"/> <img src="https://1.bp.blogspot.com/-2WEIPbrMsAg/XHmjhGAcQQI/AAAAAAAAGmg/wCdJlyVNDEQsbzModhioaHuIMch4AvWKwCLcBGAs/s1600/autorun3.png" width="200" hspace="2"/>
 
-#####  SysRestore:
+#### SysRestore
 
 If after running Clean PC, in "Normal Mode" or "Safe Mode", you do not get the expected results, it is possible that the system files of your Windows are compromised. If this is the case, run the SysRestore tool (in the System Tools menu) in "Safe Mode". Note that after running SysRestore you must run the Autorun Killer tool again to deactivate the autostart of units
 
@@ -73,7 +76,7 @@ Si después de ejecutar Clean PC, en "Modo Normal" o "Modo Seguro", no obtiene l
 
 ![SysRestore](https://3.bp.blogspot.com/-qw898YWmFDA/XHmYyYEUDwI/AAAAAAAAGls/vZeFLZULFPQoJPyHJ0N2r2pCh4qhYmPCgCLcBGAs/s1600/sysrestore.png "SysRestore")
 
-#####  SafeBoot:
+#### SafeBoot
 
 You can start in "Safe Mode" manually (for Win7 start the PC by pressing the F8 key and higher versions, press the shift key (Shift) and click on the reset button) or you can do it with the SafeBoot tool (in the System Tools menu). To restart in "Safe Mode", press the "Safe Mode" button and to return to the normal start, press the "Normal Mode" button
 
@@ -81,7 +84,7 @@ Puede iniciar en "Modo Seguro" manualmente (para Win7 iniciar el PC presionando 
 
 ![SafeBoot](https://3.bp.blogspot.com/-eF1NODrHgys/XHmYx_txG9I/AAAAAAAAGlo/4G2EUfH8Vn4p9MGbvam2dltMSiAj0DKPACLcBGAs/s1600/safeboot.png "SafeBoot")
 
-#####  Fix Print:
+#### Fix Print
 
 Some malware blocks the print queue and the icons of the installed printers disappear. This tool repairs the print queue
 
@@ -89,7 +92,7 @@ Algunos malware bloquean la cola de impresión y desaparecen los íconos de las 
 
 ![FixPrint](https://1.bp.blogspot.com/-8ONmK31Po5s/XPBatWd7mgI/AAAAAAAAHZE/KzzZuOFmaSAX2i3LpsYogIr3uwuQAYkgACLcBGAs/s1600/fixprint.png "FixPrint")
 
-#####  Regedit Back:
+#### Regedit Back
 
 Make a backup of the Windows Registry into homedrive (e.g  c:\Backup\RegBackup_2016.07.05-12.53.22.reg)
 
@@ -97,9 +100,9 @@ Realiza un backup del Registro de Windows en el disco local (ej. c:\Backup\RegBa
 
 ![Regedit Backup](https://1.bp.blogspot.com/-pQ3TD_se13Q/XHmYx-DvMRI/AAAAAAAAGlk/6zAMMPy1xooD014TEfLogLUd94mZ-ui_gCLcBGAs/s1600/regeditback.png "Regedit Backup")
 
-#### USB TOOLS:
+### USB TOOLS
 
-#####  BlackUSB
+#### BlackUSB
 
 Tool to block unauthorized devices USB, HID, HDC, Bluetooth, IEEE, SmartCardReader, PCMCIA, Printers, SCSI, RAID, etc. Cleans previous device installations, rescans those connected and blocks new ones
 
@@ -107,14 +110,14 @@ Herramienta para bloquear dispositivos no autorizados USB, HID, HDC, Bluetooth, 
 
 ![BlackUSB](https://1.bp.blogspot.com/-sSJP1d0nWpc/XQGavvaxX-I/AAAAAAAAHlA/anuHHalwhHcJt_0exQa0lD2PPUcEBaotwCLcBGAs/s1600/blackusb.png "BlackUSB")
 
-<ins>Warning</ins>
+##### ⚠️ WARNING: BEFORE YOU CONTINUE
 
 - Do not press BLOCK button twice in a row or it will block all devices / No pulse el botón BLOCK, dos veces seguidas, o bloqueará todos los dispositivos
 - If you have defined GPO policies on your system, they will be rewritten. Make a GPO backup before using BlackUSB / Si tiene establecidas políticas GPO en su sistema, serán reescritas. Haga backup GPO antes de usar BlackUSB
 - To add a new (USB/HID/etc) device to your whitelist (excluded from blocking) you must press the RESTORE button to remove the restrictions, then connect the new device and finally press BLOCK button / Para incorporar un nuevo dispositivo (USB/HID/etc) a su lista blanca (excluidos de bloqueo) debe pulsar el botón RESTORE para eliminar las restricciones, luego conectar el nuevo dispositivo y finalmente pulsar el botón BLOCK
 - After executing the BLOCK option, the whiteusb.txt report file, which contains the white list of (USB/HID/etc) devices excluded from the lock, will be displayed on your desktop. This list will be deleted when using the RESTORE option / Despues de ejecutar la opción BLOCK, aparecerá en su escritorio el archivo de reporte whiteusb.txt, que contiene la lista blanca de dispositivos (USB/HID/etc) excluidos del bloqueo. Esta lista será eliminada al utilizar la opción RESTORE
 
-#####  USB Ports Control
+#### USB Ports Control
 
 Disable and enable the USB ports on your PC for mass storage devices. Does not affect web, keyboards, mice, printers, cameras etc
 
@@ -122,7 +125,7 @@ Deshabilita y Habilita los puertos usb de su PC para dispositivos de almacenamie
 
 ![USB Ports Control](https://1.bp.blogspot.com/-7mwQuEGhK9g/XPxBBj-vXMI/AAAAAAAAERU/7Svtcm2GqcEY2YSyR7CY_C-O7rXlSgBawCLcBGAs/s1600/usbportcontrol.png)
 
-#####  USB Write Tool:
+#### USB Write Tool
 
 Enables and disables read or write USB devices
 
@@ -130,7 +133,7 @@ Deshabilita y Habilita la lectura o escritura de dispositivos usb
 
 ![USB Write Tool](https://1.bp.blogspot.com/-oOoETTYCURk/XPxBCVlq7QI/AAAAAAAAERg/JvkhJ6GKJT4yZtjkr3w6rwQT0kjBRuahwCLcBGAs/s1600/usbwritecontrol.png "USB Write Tool")
 
-#####  USB Sync:
+#### USB Sync
 
 Synchronize, in mirror mode, data from a USB device to the USBsync folder (e.g. c:\USBsync) and vice versa, with the options BACKUP and RESTORE, therefore the changes you make in your data, after executing the options of migration BACKUP or RESTORE, will be eliminated. If you do not execute any option, the window will close in 10 seconds.
 
@@ -138,7 +141,7 @@ Sincroniza, en modo espejo, los datos de un dispositivo USB a la carpeta USBsync
 
 ![USBSync](https://2.bp.blogspot.com/-63ffGe6G8NY/XHqWhBJpzDI/AAAAAAAAGns/80noeKihiUEncQqoVRdzWKSMHxug4_xBgCLcBGAs/s1600/usbsync.png "USB Sync")
 
-#####  USB Backup:
+#### USB Backup
 
 It makes a backup USB to your PC. It's stored in a folder into homedrive (e.g. c:\Backup\2016.04.21-20.13.55.)
 
@@ -146,7 +149,7 @@ Hace un backup de USB al PC. Se almacena en una carpeta en el disco local (ej. c
 
 ![USB Backup](https://3.bp.blogspot.com/-ehFE1SxJtok/XHmjh2zJ3mI/AAAAAAAAGmo/pgS9Oysx2HcN6WUUbsJjiVT-2JE1EFZgwCLcBGAs/s1600/backupusb.png "USB Backup")
 
-#####  USB Selector:
+#### USB Selector
 
 Some tools (Clean USB, USB Sync, USB Backup, etc.) use a USB Selector. This selector identifies the letter of the unit where the USB storage device is connected. The selection must be confirmed, entering the letter manually (in uppercase or lowercase, without dots)
 
@@ -154,13 +157,13 @@ Algunas herramientas (Clean USB, USB Sync, USB Backup, etc) utilizan un Selector
 
 ![USB Selector](https://4.bp.blogspot.com/-zq8-JxCRJK0/XHmjiI48xtI/AAAAAAAAGms/hnWNIcHkw2EVrgXwSgUa7k-I9CMv5f3PwCLcBGAs/s1600/usbselector.png "USB Selector")
 
-<ins>Warning</ins>
+##### ⚠️ WARNING: BEFORE YOU CONTINUE
 
 In some cases, Windows does not correctly recognize some USB devices, so the USB selector will not identify the drive letter. To know how Windows detects your USB device, run the following command:
 
 En algunos casos, Windows no reconoce correctamente algunos dispositivos USB, por tanto el selector USB no identificará la letra de unidad. Para saber cómo Windows detecta su dispositivo USB, ejecute el siguiente comando:
 
-```
+```bash
 wmic logicaldisk get caption,description,name,drivetype,providername,volumename
 
 0 = Unknown
@@ -176,7 +179,8 @@ If appears as "Removable Disk", Windows detected it correctly and the USB select
 
 Si aparece como "Disco Extraíble", Windows lo detectó correctamente y el selector USB también lo hará. Pero si aparece como "Disco Fijo Local", Windows lo detectó como un disco duro local y el selector USB no lo detectará. Para mayor información pulse [AQUI](https://answers.microsoft.com/es-es/windows/forum/windows_7-hardware/por-qu%C3%A9-mi-pc-reconoce-mi-disco-duro-externo/c11a0cb2-5ba0-41b1-8d55-bafd21f09542?auth=1)
 
-### COMPATIBILITY
+## COMPATIBILITY
+
 ---
 
 - Some tools included in Dextroyer may not work properly in VMs, USB devices with non-traditional formats, multi-reading units / Algunas herramientas incluidas de Dextroyer pueden no funcionar correctamente en VMs, dispositivos usb con formatos no-tradicionales, unidades multilectoras
@@ -184,31 +188,35 @@ Si aparece como "Disco Extraíble", Windows lo detectó correctamente y el selec
 - Dextroyer can cause irreparable damage if it is executed in an operating system different from the compatible ones (Win 7/8/10 x86 x64) / Dextroyer puede causar daños irreparables si es ejecutado en un sistema operativo diferente a los compatibles (Win 7/8/10 x86 x64)
 - The USB Sync and USB Backup tools use [Robust File Copy](https://en.wikipedia.org/wiki/Robocopy), which has some limitations and may not achieve the desired results. Use them at your own risk / Las herramientas USB Sync y USB Backup utilizan [Robust File Copy](https://es.wikipedia.org/wiki/Robocopy), el cual tiene algunas limitaciones y puede no obtener los resultados deseados. Úselas bajo su propio riesgo
 
-### CONTRIBUTIONS
+## CONTRIBUTIONS
+
 ---
 
 We thank all those who contributed to this project / Agradecemos a todos los que han contribuido con este proyecto
 
 Special thanks to: [Jhonatan Sneider](https://github.com/sney2002)
 
-### DONATE
+## DONATE
+
 ---
 
 BTC: 3M84UKpz8AwwPADiYGQjT9spPKCvbqm4Bc
 
-### LICENCES
+## LICENCES
+
 ---
 
 [![GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl.txt)
 
 [![CreativeCommons](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
-[maravento.com](http://www.maravento.com) is licensed under a [Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional License](http://creativecommons.org/licenses/by-sa/4.0/).
+[maravento.com](https://www.maravento.com) is licensed under a [Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 [WinZenity](https://github.com/maravento/winzenity), [Jpsoft](https://jpsoft.com/), [Indigo Rose](https://www.indigorose.com/autoplay-media-studio/), [SteelWerX](https://fstaal01.home.xs4all.nl/swreg-us.html), [Microsoft](https://www.microsoft.com/), [74cz](http://74.cz/es/make-sfx/index.php), [Resource Hacker](http://www.angusj.com/resourcehacker/), [BleepingComputer](https://www.bleepingcomputer.com/), [Ransomware Database](https://docs.google.com/spreadsheets/u/1/d/1TWS238xacAto-fLKh1n5uTsdijWdCEsGIM0Y0Hvmc5g/pubhtml#), [mkssoftware](https://www.mkssoftware.com/docs/man1/unzip.1.asp)
 
-© 2020 [Maravento Studio](http://www.maravento.com)
+© 2020 [Maravento Studio](https://www.maravento.com)
 
-### DISCLAIMER
+## DISCLAIMER
+
 ---
 Dextroyer is an experimental project. It contains highly destructive tools, classified as malware by some antivirus and security solutions ([VirusTotal report](https://www.virustotal.com/es/file/63c60e798a5738e10cb6fda1975c360d9889b4c437c2c04bd20ec967926c9b7e/analysis/1551278322/)), so they can damage your system if used incorrectly. Use it at your own risk.
 
