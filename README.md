@@ -1,26 +1,20 @@
 # [Dextroyer](https://www.maravento.com/p/dxt.html)
 
+![Dextroyer](https://1.bp.blogspot.com/-P261lrfT_3E/XQgVsHcX90I/AAAAAAAAEUc/vX_KcYtbeeUwbY2t4BAbsSQE3-Wq8sncgCLcBGAs/s1600/Dextroyer.png)
+
 Dextroyer is a suite of tools aimed at PC security and control of external USB storage devices (removable USB flash drives, CD/DVD, diskette, WPD, etc), enabling/disabling access, installation, writing, etc., to prevent theft of personal data, malware, forensic tools, BadUSB (USB Rubber Ducky), etc. It also cleans previous connections of USB/HID devices, re-scans the connected ones and blocks the new ones (not authorized). Eliminates malware, performs backups (incremental and mirror), disables auto-start, among many other utilities.
 
 Dextroyer es una suite de herramientas orientadas a la seguridad del PC y el control de dispositivos de almacenamiento externos USB (unidades flash USB extraibles, CD/DVD, disquete, WPD, etc), habilitando/deshabilitando su acceso, instalación, escritura, etc., para prevenir el robo de datos personales, malware, herramientas forenses, BadUSB (USB Rubber Ducky), etc. También limpia conexiones previas de dispositivos USB/HID, re-escanea los conectados y bloquea los nuevos (no autorizados). Elimina malware, realiza backups (incrementales y espejo), desactiva autoarranque, entre muchas otras utilidades.
-
-![Dextroyer](https://1.bp.blogspot.com/-P261lrfT_3E/XQgVsHcX90I/AAAAAAAAEUc/vX_KcYtbeeUwbY2t4BAbsSQE3-Wq8sncgCLcBGAs/s1600/Dextroyer.png)
 
 ## DATA SHEET
 
 ---
 
-|File|Version|OS|Update|Size|Unzip Password|
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|[Dextroyer.exe (.zip)](https://raw.githubusercontent.com/maravento/dxt/master/Dextroyer.zip)|1.0|Windows 7/8/10 x86 x64|Jun 19/2020|11.2 MB|dextroyer|
+[![Image](https://1.bp.blogspot.com/-Y_vVfquMvAE/WsOHgH6kY1I/AAAAAAAAD6Q/PPbPjbEBHH4YJDrcU6tE0ENbhHMroAmRQCLcBGAs/s1600/quick-download.png)](https://raw.githubusercontent.com/maravento/dxt/master/Dextroyer.zip)
 
-## GIT CLONE
-
----
-
-```bash
-git clone --depth=1 https://github.com/maravento/dxt.git
-```
+|File|OS|Size|Unzip Password|
+| :---: | :---: | :---: | :---: | 
+|Dextroyer.exe (.zip)|Windows 7/8/10 x86 x64|11.2 MB|dextroyer|
 
 ## HOW TO USE
 
@@ -66,7 +60,7 @@ Before performing any cleaning procedure, it is recommended to deactivate the au
 
 Antes de realizar cualquier procedimiento de limpieza, se recomienda desactivar el autoarranque de unidades (autorun) en su PC. Puede hacerlo manualmente o con la herramienta Autorun Killer (en el menú System Tools). Después de desactivarlo, reinicie el PC para que tome los cambios
 
-<img src="https://1.bp.blogspot.com/-fDG1wg85ncw/XHmjhFD58VI/AAAAAAAAGmc/j2UcMZsNx3gu-a6rrx-Jh9CJjM__JGACgCLcBGAs/s1600/autorun1.png" width="300" hspace="2"/> <img src="https://3.bp.blogspot.com/-bSw-G0OmZn8/XHmjhD0J-VI/AAAAAAAAGmk/761lbp8S0BY6Ot5wKrQHujR3plx_wJ2YwCLcBGAs/s1600/autorun2.png" width="350" hspace="2"/> <img src="https://1.bp.blogspot.com/-2WEIPbrMsAg/XHmjhGAcQQI/AAAAAAAAGmg/wCdJlyVNDEQsbzModhioaHuIMch4AvWKwCLcBGAs/s1600/autorun3.png" width="200" hspace="2"/>
+<img src="https://1.bp.blogspot.com/-fDG1wg85ncw/XHmjhFD58VI/AAAAAAAAGmc/j2UcMZsNx3gu-a6rrx-Jh9CJjM__JGACgCLcBGAs/s1600/autorun1.png" width="300" hspace="2"/> <img src="https://3.bp.blogspot.com/-bSw-G0OmZn8/XHmjhD0J-VI/AAAAAAAAGmk/761lbp8S0BY6Ot5wKrQHujR3plx_wJ2YwCLcBGAs/s1600/autorun2.png" width="280" hspace="2"/> <img src="https://1.bp.blogspot.com/-2WEIPbrMsAg/XHmjhGAcQQI/AAAAAAAAGmg/wCdJlyVNDEQsbzModhioaHuIMch4AvWKwCLcBGAs/s1600/autorun3.png" width="200" hspace="2"/>
 
 #### SysRestore
 
@@ -184,7 +178,7 @@ Si aparece como "Disco Extraíble", Windows lo detectó correctamente y el selec
 ---
 
 - Some tools included in Dextroyer may not work properly in VMs, USB devices with non-traditional formats, multi-reading units / Algunas herramientas incluidas de Dextroyer pueden no funcionar correctamente en VMs, dispositivos usb con formatos no-tradicionales, unidades multilectoras
-- On USB devices with NTFS partitions, Dextroyer not have access to System Volume Information folder and $Recycle.bin (Not applicable for FAT/FAT32/ExFAT) / En dispositivos USB con particiones NTFS, Dextroyer no tendrá acceso a carpetas System Volume Information y $RECYCLE.BIN (No aplica para FAT/FAT32/ExFAT)
+- On USB devices with NTFS partitions, Dextroyer not have access to "System Volume Information" folder and "$RECYCLE.BIN" (Not applicable for FAT/FAT32/ExFAT) / En dispositivos USB con particiones NTFS, Dextroyer no tendrá acceso a carpetas "System Volume Information" y "$RECYCLE.BIN" (No aplica para FAT/FAT32/ExFAT)
 - Dextroyer can cause irreparable damage if it is executed in an operating system different from the compatible ones (Win 7/8/10 x86 x64) / Dextroyer puede causar daños irreparables si es ejecutado en un sistema operativo diferente a los compatibles (Win 7/8/10 x86 x64)
 - The USB Sync and USB Backup tools use [Robust File Copy](https://en.wikipedia.org/wiki/Robocopy), which has some limitations and may not achieve the desired results. Use them at your own risk / Las herramientas USB Sync y USB Backup utilizan [Robust File Copy](https://es.wikipedia.org/wiki/Robocopy), el cual tiene algunas limitaciones y puede no obtener los resultados deseados. Úselas bajo su propio riesgo
 
@@ -213,13 +207,11 @@ BTC: 3M84UKpz8AwwPADiYGQjT9spPKCvbqm4Bc
 
 [WinZenity](https://github.com/maravento/winzenity), [Jpsoft](https://jpsoft.com/), [Indigo Rose](https://www.indigorose.com/autoplay-media-studio/), [SteelWerX](https://fstaal01.home.xs4all.nl/swreg-us.html), [Microsoft](https://www.microsoft.com/), [74cz](http://74.cz/es/make-sfx/index.php), [Resource Hacker](http://www.angusj.com/resourcehacker/), [BleepingComputer](https://www.bleepingcomputer.com/), [Ransomware Database](https://docs.google.com/spreadsheets/u/1/d/1TWS238xacAto-fLKh1n5uTsdijWdCEsGIM0Y0Hvmc5g/pubhtml#), [mkssoftware](https://www.mkssoftware.com/docs/man1/unzip.1.asp)
 
-© 2020 [Maravento Studio](https://www.maravento.com)
+© 2021 [Maravento Studio](https://www.maravento.com)
 
 ## DISCLAIMER
 
 ---
-Dextroyer is an experimental project. It contains highly destructive tools, classified as malware by some antivirus and security solutions ([VirusTotal report](https://www.virustotal.com/es/file/63c60e798a5738e10cb6fda1975c360d9889b4c437c2c04bd20ec967926c9b7e/analysis/1551278322/)), so they can damage your system if used incorrectly. Use it at your own risk.
-
-Dextroyer es un proyecto experimental. Contiene herramientas altamente destructivas, clasificadas como malware por algunos antivirus y soluciones de seguridad  ([VirusTotal report](https://www.virustotal.com/es/file/63c60e798a5738e10cb6fda1975c360d9889b4c437c2c04bd20ec967926c9b7e/analysis/1551278322/)), por tanto pueden dañar su sistema si se usan incorrectamente. Úselo bajo su propio riesgo.
+Dextroyer is an experimental project. It contains highly destructive tools, classified as malware by some antivirus and security solutions ([VirusTotal report](https://www.virustotal.com/es/file/63c60e798a5738e10cb6fda1975c360d9889b4c437c2c04bd20ec967926c9b7e/analysis/1551278322/)), so they can damage your system if used incorrectly. Use it at your own risk / Dextroyer es un proyecto experimental. Contiene herramientas altamente destructivas, clasificadas como malware por algunos antivirus y soluciones de seguridad  ([VirusTotal report](https://www.virustotal.com/es/file/63c60e798a5738e10cb6fda1975c360d9889b4c437c2c04bd20ec967926c9b7e/analysis/1551278322/)), por tanto pueden dañar su sistema si se usan incorrectamente. Úselo bajo su propio riesgo.
 
 THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
