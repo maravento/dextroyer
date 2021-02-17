@@ -2,19 +2,25 @@
 
 ![Dextroyer](https://1.bp.blogspot.com/-P261lrfT_3E/XQgVsHcX90I/AAAAAAAAEUc/vX_KcYtbeeUwbY2t4BAbsSQE3-Wq8sncgCLcBGAs/s1600/Dextroyer.png)
 
-Dextroyer is a suite of tools aimed at PC security and control of external USB storage devices (removable USB flash drives, CD/DVD, diskette, WPD, etc), enabling/disabling access, installation, writing, etc., to prevent theft of personal data, malware, forensic tools, BadUSB (USB Rubber Ducky), etc. It also cleans previous connections of USB/HID devices, re-scans the connected ones and blocks the new ones (not authorized). Eliminates malware, performs backups (incremental and mirror), disables auto-start, among many other utilities.
-
-Dextroyer es una suite de herramientas orientadas a la seguridad del PC y el control de dispositivos de almacenamiento externos USB (unidades flash USB extraibles, CD/DVD, disquete, WPD, etc), habilitando/deshabilitando su acceso, instalación, escritura, etc., para prevenir el robo de datos personales, malware, herramientas forenses, BadUSB (USB Rubber Ducky), etc. También limpia conexiones previas de dispositivos USB/HID, re-escanea los conectados y bloquea los nuevos (no autorizados). Elimina malware, realiza backups (incrementales y espejo), desactiva autoarranque, entre muchas otras utilidades.
+Dextroyer is a security script package for Windows / Dextroyer es un paquete de scripts de seguridad para Windows
 
 ## DATA SHEET
 
 ---
 
-[![Image](https://1.bp.blogspot.com/-Y_vVfquMvAE/WsOHgH6kY1I/AAAAAAAAD6Q/PPbPjbEBHH4YJDrcU6tE0ENbhHMroAmRQCLcBGAs/s1600/quick-download.png)](https://raw.githubusercontent.com/maravento/dxt/master/Dextroyer.zip)
+[![Image](https://1.bp.blogspot.com/-Y_vVfquMvAE/WsOHgH6kY1I/AAAAAAAAD6Q/PPbPjbEBHH4YJDrcU6tE0ENbhHMroAmRQCLcBGAs/s1600/quick-download.png)](https://bit.ly/3n7u8c8)
 
 |File|OS|Size|Unzip Password|
 | :---: | :---: | :---: | :---: | 
 |Dextroyer.exe (.zip)|Windows 7/8/10 x86 x64|11.2 MB|dextroyer|
+
+## GIT CLONE
+
+---
+
+```bash
+git clone --depth=1 https://github.com/maravento/dextroyer.git
+```
 
 ## HOW TO USE
 
