@@ -188,6 +188,21 @@ Si aparece como "Disco Extraíble", Windows lo detectó correctamente y el selec
 - Dextroyer can cause irreparable damage if it is executed in an operating system different from the compatible ones (Win 7/8/10 x86 x64) / Dextroyer puede causar daños irreparables si es ejecutado en un sistema operativo diferente a los compatibles (Win 7/8/10 x86 x64)
 - The USB Sync and USB Backup tools use [Robust File Copy](https://en.wikipedia.org/wiki/Robocopy), which has some limitations and may not achieve the desired results. Use them at your own risk / Las herramientas USB Sync y USB Backup utilizan [Robust File Copy](https://es.wikipedia.org/wiki/Robocopy), el cual tiene algunas limitaciones y puede no obtener los resultados deseados. Úselas bajo su propio riesgo
 
+## TOOLS
+
+---
+
+- [WinZenity](https://github.com/maravento/winzenity)
+- [Robust File Copy](https://es.wikipedia.org/wiki/Robocopy)
+- [TCC Jpsoft](https://jpsoft.com/products/tcc-cmd-prompt.html)
+- [Autoplay Indigo Rose](https://www.indigorose.com/autoplay-media-studio/)
+- [SteelWerX](https://fstaal01.home.xs4all.nl/swreg-us.html)
+- [make-sfx 74cz](http://74.cz/es/make-sfx/index.php)
+- [Resource Hacker](http://www.angusj.com/resourcehacker/)
+- [Rkill BleepingComputer](https://www.bleepingcomputer.com/download/rkill/)
+- [Ransomware Database](https://docs.google.com/spreadsheets/u/1/d/1TWS238xacAto-fLKh1n5uTsdijWdCEsGIM0Y0Hvmc5g/pubhtml#)
+- [unzip mkssoftware](https://www.mkssoftware.com/docs/man1/unzip.1.asp)
+
 ## CONTRIBUTIONS
 
 ---
@@ -210,8 +225,6 @@ BTC: 3M84UKpz8AwwPADiYGQjT9spPKCvbqm4Bc
 
 [![CreativeCommons](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 [maravento.com](https://www.maravento.com) is licensed under a [Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional License](http://creativecommons.org/licenses/by-sa/4.0/).
-
-[WinZenity](https://github.com/maravento/winzenity), [Jpsoft](https://jpsoft.com/), [Indigo Rose](https://www.indigorose.com/autoplay-media-studio/), [SteelWerX](https://fstaal01.home.xs4all.nl/swreg-us.html), [Microsoft](https://www.microsoft.com/), [74cz](http://74.cz/es/make-sfx/index.php), [Resource Hacker](http://www.angusj.com/resourcehacker/), [BleepingComputer](https://www.bleepingcomputer.com/), [Ransomware Database](https://docs.google.com/spreadsheets/u/1/d/1TWS238xacAto-fLKh1n5uTsdijWdCEsGIM0Y0Hvmc5g/pubhtml#), [mkssoftware](https://www.mkssoftware.com/docs/man1/unzip.1.asp)
 
 © 2021 [Maravento Studio](https://www.maravento.com)
 
