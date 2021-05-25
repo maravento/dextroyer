@@ -188,7 +188,7 @@ Si aparece como "Disco Extraíble", Windows lo detectó correctamente y el selec
 - Dextroyer can cause irreparable damage if it is executed in an operating system different from the compatible ones (Win 7/8/10 x86 x64) / Dextroyer puede causar daños irreparables si es ejecutado en un sistema operativo diferente a los compatibles (Win 7/8/10 x86 x64)
 - The USB Sync and USB Backup tools use [Robust File Copy](https://en.wikipedia.org/wiki/Robocopy), which has some limitations and may not achieve the desired results. Use them at your own risk / Las herramientas USB Sync y USB Backup utilizan [Robust File Copy](https://es.wikipedia.org/wiki/Robocopy), el cual tiene algunas limitaciones y puede no obtener los resultados deseados. Úselas bajo su propio riesgo
 
-## TOOLS
+## USED TOOLS
 
 ---
 
