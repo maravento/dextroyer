@@ -1,5 +1,9 @@
 ## Dextroyer CHANGELOG
 
+2021.06.03
+Added: Malware Database Update
+Fixed: BUGS and Links
+
 2021.04.12
 Added: Malware Database Update
 Fixed: BUGS and Links
