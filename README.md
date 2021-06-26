@@ -12,7 +12,7 @@ Dextroyer is a security script package for Windows / Dextroyer es un paquete de 
 
 |File|OS|Size|Unzip Password|
 | :---: | :---: | :---: | :---: | 
-|Dextroyer.exe (.zip)|Windows 7/8/10 x86 x64|11.2 MB|dextroyer|
+|Dextroyer.exe (.zip)|Windows 7/8/10 x86 x64|12.9 MB|dextroyer|
 
 ## GIT CLONE
 
@@ -116,6 +116,7 @@ Herramienta para bloquear dispositivos no autorizados USB, HID, HDC, Bluetooth, 
 - If you have defined GPO policies on your system, they will be rewritten. Make a GPO backup before using BlackUSB / Si tiene establecidas políticas GPO en su sistema, serán reescritas. Haga backup GPO antes de usar BlackUSB
 - To add a new (USB/HID/etc) device to your whitelist (excluded from blocking) you must press the RESTORE button to remove the restrictions, then connect the new device and finally press BLOCK button / Para incorporar un nuevo dispositivo (USB/HID/etc) a su lista blanca (excluidos de bloqueo) debe pulsar el botón RESTORE para eliminar las restricciones, luego conectar el nuevo dispositivo y finalmente pulsar el botón BLOCK
 - After executing the BLOCK option, the whiteusb.txt report file, which contains the white list of (USB/HID/etc) devices excluded from the lock, will be displayed on your desktop. This list will be deleted when using the RESTORE option / Despues de ejecutar la opción BLOCK, aparecerá en su escritorio el archivo de reporte whiteusb.txt, que contiene la lista blanca de dispositivos (USB/HID/etc) excluidos del bloqueo. Esta lista será eliminada al utilizar la opción RESTORE
+- For more information visit [BlackUSB](https://gitlab.com/maravento/blackusb) / Para mayor información visite [BlackUSB](https://gitlab.com/maravento/blackusb)
 
 #### USB Ports Control
 

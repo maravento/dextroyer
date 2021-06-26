@@ -1,5 +1,8 @@
 ## Dextroyer CHANGELOG
 
+2021.06.26
+Update: BlackUSB
+
 2021.06.03
 Added: Malware Database Update
 Fixed: BUGS and Links
