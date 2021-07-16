@@ -193,16 +193,16 @@ Si aparece como "Disco Extraíble", Windows lo detectó correctamente y el selec
 
 ---
 
-- [WinZenity](https://github.com/maravento/winzenity)
-- [Robust File Copy](https://es.wikipedia.org/wiki/Robocopy)
-- [TCC Jpsoft](https://jpsoft.com/products/tcc-cmd-prompt.html)
 - [Autoplay Indigo Rose](https://www.indigorose.com/autoplay-media-studio/)
-- [SteelWerX](https://fstaal01.home.xs4all.nl/swreg-us.html)
 - [make-sfx 74cz](http://74.cz/es/make-sfx/index.php)
+- [Ransomware Database](https://docs.google.com/spreadsheets/u/1/d/1TWS238xacAto-fLKh1n5uTsdijWdCEsGIM0Y0Hvmc5g/pubhtml#)
 - [Resource Hacker](http://www.angusj.com/resourcehacker/)
 - [Rkill BleepingComputer](https://www.bleepingcomputer.com/download/rkill/)
-- [Ransomware Database](https://docs.google.com/spreadsheets/u/1/d/1TWS238xacAto-fLKh1n5uTsdijWdCEsGIM0Y0Hvmc5g/pubhtml#)
+- [Robust File Copy](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy)
+- [SteelWerX](https://fstaal01.home.xs4all.nl/swreg-us.html)
+- [TCC Jpsoft](https://jpsoft.com/products/tcc-cmd-prompt.html)
 - [unzip mkssoftware](https://www.mkssoftware.com/docs/man1/unzip.1.asp)
+- [WinZenity](https://github.com/maravento/winzenity)
 
 ## CONTRIBUTIONS
 
